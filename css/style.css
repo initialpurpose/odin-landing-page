@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -12,10 +12,13 @@ body {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.title {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    padding: 16px;
 }
 
 ul {
@@ -27,7 +30,30 @@ ul {
 }
 
 a {
+    text-decoration: none;
+}
+
+a, .subtext {
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;
+}
+
+.hero {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
 }
